@@ -1,0 +1,67 @@
+h1{
+        text-align: center;
+        margin-top: 5%;
+        font-family: 'Arvo', serif;
+        font-style:bold;
+        color:#c93042;
+      }
+      
+      #tic{
+         margin-top: 4%;
+         overflow-x:auto
+      }
+      table{
+        flex:1 0 auto;
+        margin-left:auto;
+        margin-right: auto;
+        display:block;
+        height:316;
+        width:438;
+      }
+      tbody{
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        
+        top: 20%;
+      }
+      canvas{
+        background-color: #149AEF;
+        width: 140;
+        height: 100;
+        display: inline-block;
+
+      }
+      canvas:hover{
+        -webkit-transition: .5s;
+        background-color: #149AEF;
+        opacity: .6;
+
+      }
+      canvas:active{
+        -webkit-box-shadow: inset 0 0 20px #BEBEBE;
+        -webkit-transition:.2s;
+      }
+      #newGame{
+        
+        margin-top: 3%;
+      }
+      #btn{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 40px;
+        background-color: #CA054D;
+        color:white;
+      }
+
+      #result{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:;
+        display: block;
+        text-align: center;
+        font-family: 'Arvo', serif;
+        font-size: 2rem;
+        color: red;
+      }

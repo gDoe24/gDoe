@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link href="jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <style>
+     
+    </style>
+   <h1 id="head">Tic Tac Toe Game<span id="rulesBtn" type="dialog"></span></h1>
+   
+    <div id="dialog" title="Rules">
+      <ul style="list-style-type:disc;">
+        <li>Player 1 will be "X" and Player 2 will be "O"</li>
+        <li>Each player has to take turns until one player connects three in a row</li>
+        <li> The player able to draw three of their Xs or Os in a row wins</li>
+        <li>If all 9 positions are filled without a winner, the game is ends in a draw</li>
+        <li>You can start a new game at any point</li>
+      </ul>
+    </div>
+  </head>
+   <body>
+
+    <section>
+      <div id="result"></div>
+      <div id="tic">
+      <table >
+        <tbody>
+          <tr>
+            <td><canvas id='one' ></canvas></td>
+            <td><canvas id='two'></canvas></td>
+            <td><canvas id='three'></canvas></td>
+          </tr>
+          <tr>
+            <td><canvas id='four' ></canvas></td>
+            <td><canvas id='five'></canvas></td>
+            <td><canvas id='six'></canvas></td>
+          </tr>
+          <tr>
+            <td><canvas id='seven' ></canvas></td>
+            <td><canvas id='eight'></canvas></td>
+            <td><canvas id='nine'></canvas></td>
+          </tr>
+      </tbody>
+    </table>
+    
+  </div>
+
+      
+    <div id="newGame">
+      <button id='btn'>New Game</button>
+    </div>
+     
+  </section>
+
+  <script src="jquery.js" ></script>
+  <script src="jquery-ui.min.js" type="text/javascript"></script>
+  <script src="jquery-ui.js" type="text/javascript"></script>
+  <script src="ttt_script.js" type="text/javascript"></script>
+   <script> 
+
+
+ 
+   </script>
+   </body>
+</html>
+
